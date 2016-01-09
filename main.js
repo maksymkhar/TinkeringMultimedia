@@ -48,7 +48,7 @@ function startRewind(elementId)
         audioIntervalRewind = setInterval(function()
         {
             document.getElementById(elementId).currentTime -= 0.1;
-        }, 30);
+        }, 100);
     }
 }
 
