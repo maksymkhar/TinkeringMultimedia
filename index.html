@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+
+    <style>
+        .centred  {
+            text-align: center;
+        }
+
+        .p-t-md {
+            padding-top: 20px;
+        }
+        .p-t-lg {
+            padding-top: 50px;
+        }
+
+    </style>
+
+    <script src="main.js"></script>
+
 </head>
 <body>
 
-trololo
+
+<div class="centred">
+
+    <h1>AMAZING!!!</h1>
+    <video id="video"
+           src="https://r16---sn-h5q7dner.googlevideo.com/videoplayback?lmt=1439723555642238&ratebypass=yes&expire=1452321940&mime=video%2Fmp4&requiressl=yes&ms=au&itag=22&initcwndbps=1452500&dur=224.815&mv=m&mt=1452300262&id=o-AK9fJiwBAzii8i75qzmM32IiAiK0kB4jd3IbJ-5IeW5w&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cnh%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cupn%2Cexpire&fexp=9407536%2C9407745%2C9416126%2C9417354%2C9418400%2C9419817%2C9420452%2C9421247%2C9422596%2C9423294%2C9423662%2C9424773%2C9425402%2C9426214&sver=3&pl=20&mn=sn-h5q7dner&mm=31&ip=79.148.31.16&key=yt6&source=youtube&upn=0WRRVf_fNcE&signature=BFB05696A3F89FEF838DE84FFA71735CC73381DF.B5398D15998E87B83B72671052FAAF6844A59F&ipbits=0&nh=IgpwcjAxLm1hZDA2KgkxMjcuMC4wLjE"
+           preload="auto"
+           controls></video>
+
+    <div class="p-t-md">
+        <button onclick="play()">Play</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="increaseVolume()">Vol. +</button>
+        <button onclick="decreaseVolume()">Vol. -</button>
+        <button onclick="startForward()">Start forward</button>
+        <button onclick="stopForward()">Stop forward</button>
+        <button onclick="startRewind()">Start rewind</button>
+        <button onclick="stopRewind()">Stop rewind</button>
+
+    </div>
+
+
+
+</div>
+
+
+<div class="centred p-t-lg">
+
+    <h1>AUDIO</h1>
+    <audio id="audio" src="https://upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg" preload="auto" controls></audio>
+
+</div>
+
+
+
 
 </body>
 </html>
